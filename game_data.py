@@ -1,3 +1,7 @@
+#
+# Change stats to dictionaries
+#
+
 modifiable_stats_list = [
         ["Health", "Description: Total hit points before your demise. Rest to restore."],
         ["Stamina", "Description: Total fatigue points. Regenerates between actions." ],
@@ -25,5 +29,6 @@ unmodifiable_stats_list = [
         ]
 
 levels = {1 : "Green Plains"}
+
 
 print(levels)
